@@ -1,0 +1,119 @@
+@import url('@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&family=Roboto&display=swap')');
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+body {
+  font-family: 'Open Sans Condensed', sans-serif;
+  background-color: rgba(0,0,0,0.05);
+  color: #086972;
+  font-size: 30px;
+  line-height: normal;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.container {
+  width: 600px;
+  margin: 0 auto;
+  text-align: center;
+  border-radius: 5px
+}
+
+h1 {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 30px;
+  line-height: normal;
+  color: #086972;
+}
+
+h2 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  line-height: normal;
+  color: #086972;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  line-height: normal;
+  color: black;
+}
+
+a {
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  line-height: normal;
+  color: black;
+}
+
+.card {
+  background-color: white;
+  border: 1px solid white;
+  border-radius: 3px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  padding: 10px 10px;
+  text-align: center;
+  margin: 20px 0px;
+}
+
+.btn-lewagon {
+  background-color: #87dfd6;
+  color: white;
+  width: 50%;
+  padding: 10px 0px;
+  display: inline-block;
+  border-radius: 4px;
+  transition: 0.5s;
+  font-size: 15px;
+  border: none;
+  text-decoration: none;
+}
+
+.btn-lewagon:hover {
+ opacity: 0.7;
+ text-decoration: underline;
+}
+
+.list-style {
+  color: black;
+  width: 50%;
+  margin: 0 auto;
+  padding: 0 0;
+}
+
+.list-style li {
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.header {
+  background-color: transparent;
+  border: none;
+  box-shadow: none;
+}
+
+.img-circle {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+}
+
+
